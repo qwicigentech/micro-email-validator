@@ -1,0 +1,7 @@
+{
+  "nestJs": true,
+  "esModuleInterop": true,
+  "outputEncodeMethods": false,
+  "outputJsonMethods": false,
+  "outputClientImpl": false
+}

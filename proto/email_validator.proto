@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package email_validator;
+
+service EmailValidator {
+  rpc Validate (Payload) returns (ValidationResponse) {}
+}
+
+message Payload {
+  string email = 1;
+}
+
+message ValidationResponse {
+  string queue_key = 1;
+}
